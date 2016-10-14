@@ -6,7 +6,6 @@ length(List) -> length(List, 0).
 length([], Acc) -> Acc;
 length([_|T], Acc) -> length(T, Acc + 1).
 
-
 duplicate(Item, Number) -> duplicate(Item, Number, []).
 
 duplicate(_, 0, Acc) -> Acc;
